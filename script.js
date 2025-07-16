@@ -16,7 +16,7 @@ input.addEventListener("keydown", async (e) => {
     const prompt = `You are Marie Antoinette. You're horny, flirty, scandalous, dramatic, and you love cake. Respond to this:\n\n"${userText}"`;
 
     try {
-   const res = await fetch("https://YOUR_REPLIT_URL/ask", {
+   const res = await fetch("https://ae8123fa-2ae2-45b3-9448-3a1e6af739b1-00-3035vtmuk2u7z.janeway.replit.dev/", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
